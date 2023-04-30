@@ -7,6 +7,7 @@ namespace Csaa_jo
     {
         static List<Food> FoodLista = new List<Food>();
         static List<Dolgozok> DolgozokList = new List<Dolgozok>();
+
         List<int> priceList = new List<int>();
         public Form1()
         {
@@ -14,7 +15,7 @@ namespace Csaa_jo
             FoodLista.AddRange(db.getFood());
             DolgozokList.AddRange(db.getDolgozok());
 
-            
+
 
             InitializeComponent();
         }
@@ -181,7 +182,7 @@ namespace Csaa_jo
         //teszt kiiratás
         private void button1_Click(object sender, EventArgs e)
         {
-          subtract_money(textBox1, typeof(TextBox));
+            subtract_money(textBox1, typeof(TextBox));
         }
 
 
@@ -193,58 +194,58 @@ namespace Csaa_jo
 
         private void button7_Click(object sender, EventArgs e)
         {
-            add_Text_to_TextBox(sender);
+            add_Text_to_TextBox(sender, textBox1);
         }
 
         private void ketto_Click(object sender, EventArgs e)
         {
-            add_Text_to_TextBox(sender);
+            add_Text_to_TextBox(sender, textBox1);
         }
 
         private void harom_Click(object sender, EventArgs e)
         {
-            add_Text_to_TextBox(sender);
+            add_Text_to_TextBox(sender, textBox1);
         }
 
         private void negy_Click(object sender, EventArgs e)
         {
-            add_Text_to_TextBox(sender);
+            add_Text_to_TextBox(sender, textBox1);
         }
 
         private void ot_Click(object sender, EventArgs e)
         {
-            add_Text_to_TextBox(sender);
+            add_Text_to_TextBox(sender, textBox1);
         }
 
         private void hat_Click(object sender, EventArgs e)
         {
-            add_Text_to_TextBox(sender);
+            add_Text_to_TextBox(sender, textBox1);
         }
 
         private void het_Click(object sender, EventArgs e)
         {
-            add_Text_to_TextBox(sender);
+            add_Text_to_TextBox(sender, textBox1);
         }
 
         private void nyolc_Click(object sender, EventArgs e)
         {
-            add_Text_to_TextBox(sender);
+            add_Text_to_TextBox(sender, textBox1);
         }
 
         private void kilenc_Click(object sender, EventArgs e)
         {
-            add_Text_to_TextBox(sender);
+            add_Text_to_TextBox(sender, textBox1);
         }
 
         private void nulla_Click(object sender, EventArgs e)
         {
-            add_Text_to_TextBox(sender);
+            add_Text_to_TextBox(sender, textBox1);
         }
-        private void add_Text_to_TextBox(object sender)
+        private void add_Text_to_TextBox(object sender, TextBox textbox)
         {
             string text = (sender as Button).Text;
 
-            textBox1.Text += text;
+            textbox.Text += text;
         }
 
         //teljes osszeg
@@ -337,6 +338,175 @@ namespace Csaa_jo
 
         private void label4_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void pontos_Click(object sender, EventArgs e)
+        {
+            panel1.Hide();
+            panel2.Hide();
+            panel3.Show();
+            panel1.BringToFront();
+            label2.Text = "0";
+        }
+
+        private void Bejel_Click(object sender, EventArgs e)
+        {
+            string text = textBox2.Text;
+
+            if (text != "")
+            {
+
+                int id = Convert.ToInt32(text);
+                string name = get_name_by_id(id);
+
+                if (name != "")
+                {
+                    textBox3.Text = name;
+                    textBox4.Text = name;
+                    panel1.Hide();
+                    panel2.Show();
+                    panel3.Hide();
+                    panel4.Hide();
+                    panel1.BringToFront();
+                }
+                else {
+                    MessageBox.Show("Kérlek adj meg létezõ id-t!(Kártyán található szám)");
+                }
+
+            }
+
+        }
+
+        private string get_name_by_id(int id)
+        {
+
+            foreach (var dolgozo in DolgozokList)
+            {
+
+                if (dolgozo.userid == id)
+                {
+                    return dolgozo.firstname + " " + dolgozo.lastname;
+                }
+
+            }
+
+            return "";
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void b8_Click(object sender, EventArgs e)
+        {
+            add_Text_to_TextBox(sender, textBox2);
+        }
+
+        private void b9_Click(object sender, EventArgs e)
+        {
+            add_Text_to_TextBox(sender, textBox2);
+        }
+
+        private void b6_Click(object sender, EventArgs e)
+        {
+            add_Text_to_TextBox(sender, textBox2);
+        }
+
+        private void b7_Click(object sender, EventArgs e)
+        {
+            add_Text_to_TextBox(sender, textBox2);
+        }
+
+        private void b4_Click(object sender, EventArgs e)
+        {
+            add_Text_to_TextBox(sender, textBox2);
+        }
+
+        private void b1_Click(object sender, EventArgs e)
+        {
+            add_Text_to_TextBox(sender, textBox2);
+        }
+
+        private void b5_Click(object sender, EventArgs e)
+        {
+            add_Text_to_TextBox(sender, textBox2);
+        }
+
+        private void b2_Click(object sender, EventArgs e)
+        {
+            add_Text_to_TextBox(sender, textBox2);
+        }
+
+        private void b3_Click(object sender, EventArgs e)
+        {
+            add_Text_to_TextBox(sender, textBox2);
+        }
+
+        private void b0_Click(object sender, EventArgs e)
+        {
+            add_Text_to_TextBox(sender, textBox2);
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Id_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kilepes_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+
+            panel1.Hide();
+            panel2.Hide();
+            panel3.Hide();
+            panel4.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Dell1_Click(object sender, EventArgs e)
+        {
+            delete_Last_Character(sender);
+        }
+
+        private void Dell2_Click(object sender, EventArgs e)
+        {
+            delete_Last_Character(sender);
+        }
+        private void delete_Last_Character(object sender)
+        {
+
+            TextBox textBox = (sender as Button) == Dell2 ? textBox1 : textBox2;
+
+            if (textBox.Text != "")
+            {
+                string result = textBox.Text.Substring(0, textBox.Text.Length - 1);
+
+                textBox.Text = result;
+            }
 
         }
     }

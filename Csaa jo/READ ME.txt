@@ -1,0 +1,7 @@
+A program visual studio code 2022 nevezetü programmal íródott, kód megtekintése csak ezen ajánlott!
+A program adatbázist használ amit a local phpMySQL-en keresztül javasolt feltölteni ls futtatni!
+Az adatbázis használata kötelező, nélküle nem használható a program!
+A mappa telepítőt tartalmaz (Csaa kassza) amivel telepíthetjük a kassza programot.
+A telepítő egy shrot cutot fog létrehozni az asztalon, így nem kell a visual studio code 2022 / visual studio community az elindításához.
+A kassza használathoz szükséges adatokat a weboldalunkon található meg, de a kassza értesíteni fog a szükséges adatok megadásáról,
+és azoknak megtalálhatóságáról.

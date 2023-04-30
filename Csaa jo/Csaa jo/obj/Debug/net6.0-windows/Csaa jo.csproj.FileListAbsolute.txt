@@ -31,3 +31,4 @@ C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\runtimes\wi
 C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.csproj.CopyComplete
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa_jo.Properties.Resources.resources
