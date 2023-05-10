@@ -1,0 +1,34 @@
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\Csaa jo.exe
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\Csaa jo.deps.json
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\Csaa jo.runtimeconfig.json
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\Csaa jo.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\Csaa jo.pdb
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.csproj.AssemblyReference.cache
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa_jo.Form1.resources
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.csproj.GenerateResource.cache
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.AssemblyInfoInputs.cache
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.AssemblyInfo.cs
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.csproj.CoreCompileInputs.cache
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\refint\Csaa jo.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.pdb
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.genruntimeconfig.cache
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\ref\Csaa jo.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa jo.csproj.CopyComplete
+C:\Users\csacs\source\repos\Csaa jo\Csaa jo\obj\Debug\net6.0-windows\Csaa_jo.Properties.Resources.resources
